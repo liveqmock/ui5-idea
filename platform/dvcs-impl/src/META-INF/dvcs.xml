@@ -1,0 +1,15 @@
+<idea-plugin>
+  <extensionPoints>
+    <extensionPoint name="pushSupport"
+                    interface="com.intellij.dvcs.push.PushSupport" area="IDEA_PROJECT"/>
+  </extensionPoints>
+  <actions>
+    <!--<action id="Vcs.Push" class="">-->
+      <!--<keyboard-shortcut first-keystroke="control shift K" keymap="$default"/>-->
+    <!--</action>-->
+  </actions>
+  <extensions defaultExtensionNs="com.intellij">
+    <projectService serviceImplementation="com.intellij.dvcs.push.PushSettings"/>
+  </extensions>
+</idea-plugin>
+
