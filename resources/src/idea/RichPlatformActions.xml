@@ -362,14 +362,14 @@
       <add-to-group group-id="WelcomeScreen.QuickStart" anchor="first"/>
     </group>
 
-    <group id="WelcomeScreen.Documentation.IDEA">
-      <action id="WelcomeScreen.JetBrainsTV.IDEA" class="com.intellij.openapi.wm.impl.welcomeScreen.IdeaJetBrainsTvAction"
-              icon="AllIcons.General.JetbrainsTvIdea"/>
-      <action id="WelcomeScreen.DevelopPlugins" class="com.intellij.openapi.wm.impl.welcomeScreen.DevelopPluginsAction"
-              icon="AllIcons.General.PluginManager"/>
+    <!--<group id="WelcomeScreen.Documentation.IDEA">-->
+      <!--<action id="WelcomeScreen.JetBrainsTV.IDEA" class="com.intellij.openapi.wm.impl.welcomeScreen.IdeaJetBrainsTvAction"-->
+              <!--icon="AllIcons.General.JetbrainsTvIdea"/>-->
+      <!--<action id="WelcomeScreen.DevelopPlugins" class="com.intellij.openapi.wm.impl.welcomeScreen.DevelopPluginsAction"-->
+              <!--icon="AllIcons.General.PluginManager"/>-->
 
-      <add-to-group group-id="WelcomeScreen.Documentation" anchor="last"/>
-    </group>
+      <!--<add-to-group group-id="WelcomeScreen.Documentation" anchor="last"/>-->
+    <!--</group>-->
 
     <group id="WelcomeScreen.Configure.IDEA">
       <action class="com.intellij.ide.actions.TemplateProjectSettingsGroup"/>

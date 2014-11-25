@@ -519,11 +519,17 @@
     </group>
 
     <group id="WelcomeScreen.Documentation">
-      <action id="WelcomeScreen.ReadHelp" class="com.intellij.ide.actions.HelpTopicsAction"
-        icon="AllIcons.General.ReadHelp"/>
-      <action id="WelcomeScreen.ShowTips" class="com.intellij.ide.actions.ShowTipsAction"
-        icon="AllIcons.General.TipsOfTheDay"/>
-      <reference ref="Help.KeymapReference"/>
+      <action id="WelcomeScreen.UI5.Githubpage" text="Github UI5 Page" class="com.intellij.ide.actions.Ui5GitPage"/>
+      <action id="WelcomeScreen.UI5.ForumPage" text="SAP HTML5 Forums" class="com.intellij.ide.actions.Ui5ForumPage"/>
+      <action id="WelcomeScreen.UI5.ApiPage" text="API Reference" class="com.intellij.ide.actions.Ui5ApiPage"/>
+      <action id="WelcomeScreen.UI5.ControlsPage" text="Controls Demo" class="com.intellij.ide.actions.Ui5ControlsPage"/>
+
+
+      <!--<action id="WelcomeScreen.ReadHelp" class="com.intellij.ide.actions.HelpTopicsAction"-->
+        <!--icon="AllIcons.General.ReadHelp"/>-->
+      <!--<action id="WelcomeScreen.ShowTips" class="com.intellij.ide.actions.ShowTipsAction"-->
+        <!--icon="AllIcons.General.TipsOfTheDay"/>-->
+      <!--<reference ref="Help.KeymapReference"/>-->
     </group>
 
     <group id="WelcomeScreen.Configure">
