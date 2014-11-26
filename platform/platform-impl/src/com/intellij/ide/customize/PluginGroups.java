@@ -114,6 +114,7 @@ public class PluginGroups {
     )));
     tree.put("Web Development", Pair.create(PlatformImplIcons.WebDevelopment, Arrays.asList(
       "HTML:HtmlTools,QuirksMode,W3Validators",
+      "com.atsebak.ui5",
       "org.jetbrains.plugins.haml",
       "com.jetbrains.plugins.jade",
       "com.intellij.css",
